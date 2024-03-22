@@ -26,6 +26,36 @@ public class Email{
   System.out.println(mail.mailAddress(mail.firstname,mail.lastName,mail.department));
 
 
+  //generating random password
+
+
+  //randomGenerator method
+  //characters attribute 
+
+  
+
+  // for(int i=0;i<13;i++){
+  //   String a=pswrd.characters;
+  //   int b=pswrd.randomGenerator();
+  //    char pwd= a.charAt(b);
+  //    System.out.println(pwd);
+
+
+  // }
+
+  StringBuilder pwd =new StringBuilder();
+   for(int i=0;i<13;i++){
+
+   int index=pswrd.randomGenerator();
+   char result=pswrd.characters.charAt(index);
+   pwd.append(result);
+
+
+   }
+   System.out.println(pwd);
+
+
+
   
 
   scan.close();
@@ -84,12 +114,7 @@ class Password{
     
   }
 
-  public String passGenerate(){
-
-    for(int i=0;i<13;i++){
-
-
-    }
+  
     
 
   }
@@ -100,7 +125,6 @@ class Password{
 //     }
 //   }
 
-}
 
 
     

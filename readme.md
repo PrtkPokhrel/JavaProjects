@@ -9,9 +9,9 @@ Your application shoukd do the follow:
 
   -Determine the department(sales,development,accounting) if none leave blank  //done
 
-  -Generate a random string for password 
+  -Generate a random string for password //done
 
-  -Have set method to change the password ,set the mailbox capacity, and define an alterative email address
+  -Have set method to change the password ,set the mailbox capacity, and define an alterative email address // ongoing
 
   -Have get method to display the name ,email, nd mailbox capacity
 
