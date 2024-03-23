@@ -15,44 +15,31 @@ public class Email{
   System.out.print("Enter the last name: "); //user info
   mail. lastName=scan.nextLine();
 
-  System.out.println("For deprtment enter the number accordingly: ");
+  System.out.println("For deprtment enter the number accordingly: ");  //user info
   System.out.println("1.Sales");
   System.out.println("2.Development");
   System.out.println("3.Accounting");
-  mail.department=scan.nextLine();
+  mail.department=scan.nextLine();   // user info
 
 
 
-  System.out.println(mail.mailAddress(mail.firstname,mail.lastName,mail.department));
+  System.out.println(mail.mailAddress(mail.firstname,mail.lastName,mail.department));  //prints the generated email address
 
 
-  //generating random password
 
-
-  //randomGenerator method
-  //characters attribute 
-
-  
-
-  // for(int i=0;i<13;i++){
-  //   String a=pswrd.characters;
-  //   int b=pswrd.randomGenerator();
-  //    char pwd= a.charAt(b);
-  //    System.out.println(pwd);
-
-
-  // }
+//   generates a random password and store in the variable pwd
 
   StringBuilder pwd =new StringBuilder();
    for(int i=0;i<13;i++){
-
+   
    int index=pswrd.randomGenerator();
    char result=pswrd.characters.charAt(index);
    pwd.append(result);
 
 
    }
-   System.out.println(pwd);
+   System.out.println("Your password is: "+pwd);  //Prints the machine generated password
+
 
 
 

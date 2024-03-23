@@ -13,7 +13,7 @@ Your application shoukd do the follow:
 
   -Have set method to change the password ,set the mailbox capacity, and define an alterative email address // ongoing
 
-  -Have get method to display the name ,email, nd mailbox capacity
+  -Have get method to display the name ,email, and mailbox capacity
 
 -----------------------------------------------------------------------------
 
